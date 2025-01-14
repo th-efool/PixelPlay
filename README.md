@@ -26,10 +26,9 @@ This project implements a deep learning model for multi-class image classificati
 
 ### Dataset Details
 
-- **Path:** `C:/Projects Temp/Pixel Play/Splitted Up`
+- **Path:** `C:/Projects Temp/Pixel Play/dataset`
     - **Train Directory:** `/train`
     - **Validation Directory:** `/validate`
-    - **Test Directory:** `/test`
 - **Number of Classes:** `NumberOfSpecies` (calculated as the count of directories in the training folder)
 
 ---
