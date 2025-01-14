@@ -10,7 +10,7 @@ DatasetPath = "C:/Projects Temp/Pixel Play/dataset"
 trainPath = DatasetPath + "/train"
 validPath = DatasetPath + "/validate"
 testPath = DatasetPath + "/test"
-best_model_file = "C:/Projects Temp/Pixel Play/temp/XXVInceptionResNetV2.keras"  # Pretrained model location
+best_model_file = "C:/Projects Temp/Pixel Play/temp/model42-InceptRestV2.keras"  # Pretrained model location
 finetuned_model_file = "C:/Projects Temp/Pixel Play/temp/inception_resnet_finetunedA.keras"
 
 # Number of classes
