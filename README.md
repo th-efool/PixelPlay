@@ -1,7 +1,7 @@
 ## Overview
 
 This project implements a deep learning model for multi-class image classification using TensorFlow and Keras. The training was conducted in two distinct phases with an efficient combination of layer structuring and training strategies.
-Builded up dataset for the unseen classes using “feedbackCustom Search JSON API” and using bing through “beautifulsoup” 
+Builded up dataset for the unseen classes using “Custom Search JSON API” and using bing through “beautifulsoup” 
 
 ### Training Phases
 
