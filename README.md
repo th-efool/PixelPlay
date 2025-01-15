@@ -1,6 +1,7 @@
 ## Overview
 
 This project implements a deep learning model for multi-class image classification using TensorFlow and Keras. The training was conducted in two distinct phases with an efficient combination of layer structuring and training strategies.
+Builded up dataset for the unseen classes using “feedbackCustom Search JSON API” and using bing through “beautifulsoup” 
 
 ### Training Phases
 
@@ -14,7 +15,7 @@ This project implements a deep learning model for multi-class image classificati
     - Dense output layer (activation="softmax")
 
 #### Phase 2: Fine-Tuning with Lower Learning Rate and Dropout Layer
-
+- **Learning Rate:** Adam optimizer with a learning rate of 0.000001
 - **Model Initialization:** Loaded the best model from Phase 1
 - **Dropout:** Added a `Dropout(0.15)` layer to prevent overfitting
 - **Dense Layers:** Final Dense output layer with softmax activation.
